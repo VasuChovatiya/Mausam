@@ -1,0 +1,9 @@
+// Copy to Local.xcconfig (git-ignored) to run on Apple WeatherKit.
+//
+// WeatherKit needs a paid Apple Developer account and an App ID with the WeatherKit capability
+// and the WeatherKit app service turned on (developer.apple.com > Certificates, IDs & Profiles).
+
+DEVELOPMENT_TEAM = ABCDE12345
+PRODUCT_BUNDLE_IDENTIFIER = com.example.Mausam
+WEATHER_PROVIDER = weatherkit
+CODE_SIGN_ENTITLEMENTS = Config/Mausam.entitlements

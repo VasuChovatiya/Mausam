@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+DerivedData/
+*.xcuserstate
+project.xcworkspace/xcuserdata/
+*.xcbkptlist
+
+# Local signing and WeatherKit settings
+Local.xcconfig
+Config/Local.xcconfig
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved

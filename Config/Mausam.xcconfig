@@ -1,0 +1,11 @@
+// Build settings for the Mausam app target.
+//
+// Out of the box the app reads weather from Open-Meteo, which needs no key or account. To use Apple
+// WeatherKit instead, copy Local.example.xcconfig to Local.xcconfig (git-ignored) and fill it in.
+
+PRODUCT_BUNDLE_IDENTIFIER = com.vasuchovatiya.Mausam
+// openmeteo or weatherkit
+WEATHER_PROVIDER = openmeteo
+CODE_SIGN_ENTITLEMENTS =
+
+#include? "Local.xcconfig"
